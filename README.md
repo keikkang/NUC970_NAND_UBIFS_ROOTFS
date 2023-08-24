@@ -12,14 +12,17 @@ Using this string : bootargs=noinitrd ubi.mtd=2 root=ubi0:user rw rootfstype=ubi
 #### 3. Select Memory Tchnology Deviced (MTD) support
 ![image](https://github.com/keikkang/NUC980_GINU_BSP/assets/108905975/70da42be-ec33-4508-aa8c-66f14c9c8878)
 
-#### 4. Select Command line partition table parsing / Common interfacae to block layer for MTD 'translation layers' / NAND Deivce SUPPORT / Enable UBI 
+#### 4. Select Command line partition table parsing / Caching block device access to MTD devices / NAND Deivce SUPPORT / Enable UBI 
+![image](https://github.com/keikkang/NUC980_GINU_BSP/assets/108905975/e8d44507-4f32-4815-8592-20c49aef1544)
 
-![image](https://github.com/keikkang/NUC980_GINU_BSP/assets/108905975/b80c6b0c-fcf1-471b-80a1-539db2bba9ad)
 
 #### 5. Select Nuvoton NUC970/N9H30 FMI function selection 
 ![image](https://github.com/keikkang/NUC980_GINU_BSP/assets/108905975/ff8237fe-ed28-4102-a3e4-bd3d61f94c08)
 
-
 #### 6. Nuvoton NUC970/N9H30 MTD NAND (Port C)
-![image](https://github.com/keikkang/NUC980_GINU_BSP/assets/108905975/83d0c313-7589-4b92-adff-ac305e78dd97)
+![image](https://github.com/keikkang/NUC980_GINU_BSP/assets/108905975/f4eefc3c-5ad7-484b-b9bc-e5e7353c6c32)
 
+#### 7. Miscellaneous filesystems → UBIFS file system support
+![image](https://github.com/keikkang/NUC980_GINU_BSP/assets/108905975/4a4d5cda-92cd-409e-8efc-fd39c8b56adc)
+
+### 2. Make ubifs img
